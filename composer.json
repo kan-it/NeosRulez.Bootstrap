@@ -4,7 +4,6 @@
   "name": "neosrulez/bootstrap",
   "require": {
     "neos/neos": "*",
-    "neos/nodetypes": "*",
     "shel/neos-colorpicker": "^1.3",
     "neosrulez/countrydatasource": "^1.0"
   },
