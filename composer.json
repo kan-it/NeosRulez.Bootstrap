@@ -1,7 +1,7 @@
 {
   "description": "A basic package to start building awesome Neos CMS websites based on Bootstrap v5.",
   "type": "neos-package",
-  "name": "whoopinger/neosrulezbootstrap",
+  "name": "neosrulez/bootstrap",
   "require": {
     "neos/neos": "*",
     "neos/nodetypes": "*",
