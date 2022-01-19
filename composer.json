@@ -4,13 +4,9 @@
   "name": "neosrulez/bootstrap",
   "require": {
     "neos/neos": "*",
-    "neos/nodetypes-basemixins": "*",
-    "neos/nodetypes-assetlist": "*",
-    "neos/nodetypes-columnlayouts": "*",
-    "neos/nodetypes-contentreferences": "*",
-    "neos/nodetypes-html": "*",
-    "neos/nodetypes-navigation": "*",
+    "neos/nodetypes": "*",
     "shel/neos-colorpicker": "^1.4",
+    "neosrulez/bootstrap-formbuilder": "*",
     "neosrulez/countrydatasource": "^1.0"
   },
   "autoload": {
