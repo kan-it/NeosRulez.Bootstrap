@@ -4,9 +4,13 @@
   "name": "neosrulez/bootstrap",
   "require": {
     "neos/neos": "^7.0 || ^8.0 || ^8.1",
-    "neos/nodetypes": "*",
+    "neos/nodetypes-basemixins": "*",
+    "neos/nodetypes-assetlist": "*",
+    "neos/nodetypes-columnlayouts": "*",
+    "neos/nodetypes-contentreferences": "*",
+    "neos/nodetypes-html": "*",
+    "neos/nodetypes-navigation": "*",
     "shel/neos-colorpicker": "^1.4",
-    "neosrulez/bootstrap-formbuilder": "*",
     "neosrulez/countrydatasource": "^1.0",
     "twbs/bootstrap": "^5.2"
   },
