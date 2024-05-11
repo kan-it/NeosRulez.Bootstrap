@@ -33,6 +33,25 @@
           hidden: 'ClientEval:node.properties.autoOpen ? false : true'
           group: modal
           position: after autoOpen
+    showOnlyOnce:
+      type: boolean
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          hidden: 'ClientEval:node.properties.autoOpen ? false : true'
+          group: modal
+          position: after autoOpen
+    showOnlyOnceLifetime:
+      type: string
+      defaultValue: '1'
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          hidden: 'ClientEval:node.properties.showOnlyOnce ? false : true'
+          group: modal
+          position: after autoOpen
     title:
       type: string
       ui:
