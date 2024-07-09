@@ -27,6 +27,10 @@ Neos:
               accept: 'image/png,image/jpeg,image/gif,image/svg+xml'
               features:
                 resize: false
+  Fusion:
+    defaultContext:
+      'ImageSize': 'NeosRulez\Bootstrap\Eel\ImageSizeHelper'
+
 NeosRulez:
   Bootstrap:
     headerLogoPath: 'Images/Logo.svg'
@@ -43,6 +47,11 @@ NeosRulez:
     navbarIdentifier: true
 #    googleMapsApiKey: 'XyzaazaSyAEpcE4tniLTPaCDTm9e9-7h9dPBgHjfs'
     defaultDateFormat: 'd.m.Y'
+    images:
+      sourceSet: true
+      maximumWidth: 2560
+      maximumHeight: 2560
+      quality: 80
     fontawesome:
       publicResourcePath: 'resource://NeosRulez.Bootstrap/Public/Assets'
       version: '5.15.2'
