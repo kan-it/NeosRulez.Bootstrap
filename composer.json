@@ -10,7 +10,7 @@
     "neos/nodetypes-contentreferences": "*",
     "neos/nodetypes-html": "*",
     "neos/nodetypes-navigation": "*",
-    "shel/neos-colorpicker": "^1.4",
+    "shel/neos-colorpicker": "^1.6",
     "neosrulez/countrydatasource": "^1.0",
     "twbs/bootstrap": "^5.3"
   },
