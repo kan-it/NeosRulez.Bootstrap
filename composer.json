@@ -3,11 +3,14 @@
   "type": "neos-package",
   "name": "neosrulez/bootstrap",
   "require": {
-    "neos/neos": "^7.0 || ^8.0 || ^8.1 || ^9.0 || ^9.1",
-    "neos/nodetypes": "*",
-    "shel/neos-colorpicker": "^1.7",
-    "neosrulez/bootstrap-formbuilder": "*",
-    "neosrulez/countrydatasource": "^1.0",
+    "neos/neos": "^7.0 || ^8.0 || ^8.1",
+    "neos/nodetypes-basemixins": "*",
+    "neos/nodetypes-assetlist": "*",
+    "neos/nodetypes-columnlayouts": "*",
+    "neos/nodetypes-contentreferences": "*",
+    "neos/nodetypes-html": "*",
+    "neos/nodetypes-navigation": "*",
+    "shel/neos-colorpicker": "^1.6",
     "twbs/bootstrap": "^5.3"
   },
   "autoload": {
