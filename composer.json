@@ -12,7 +12,7 @@
     "neos/nodetypes-navigation": "*",
     "shel/neos-colorpicker": "^1.4",
     "neosrulez/countrydatasource": "^1.0",
-    "twbs/bootstrap": "^5.2"
+    "twbs/bootstrap": "^5.3"
   },
   "autoload": {
     "psr-4": {
